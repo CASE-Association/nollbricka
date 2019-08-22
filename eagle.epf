@@ -397,6 +397,8 @@ UsedLibrary="C:/Users/Isak/Documents/EAGLE/libraries/Sparkfun/SparkFun-Switches.
 UsedLibrary="C:/Users/Isak/Documents/EAGLE/libraries/Sparkfun/User-Submitted.lbr"
 UsedLibrary="C:/Users/Isak/Documents/EAGLE/libraries/GreenYe/sfh4550 & teft4300.lbr"
 UsedLibrary="C:/Users/Isak/Documents/EAGLE/libraries/CASE/CASE-RCL.lbr"
+UsedLibrary="C:/Users/Isak/Documents/EAGLE/libraries/CASE/CASE-Pinhead.lbr"
+UsedLibrary="C:/Users/Isak/Documents/EAGLE/libraries/CASE/CASE-LED.lbr"
 
 [Win_1]
 Type="Control Panel"
