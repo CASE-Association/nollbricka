@@ -688,9 +688,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY1" library="Isaks Bibliotek" library_urn="urn:adsk.eagle:library:11889733" deviceset="5V" device="" value="9V"/>
 <part name="GND1" library="Isaks Bibliotek" library_urn="urn:adsk.eagle:library:11889733" deviceset="GND" device=""/>
 <part name="9VBAT" library="CASE-Pinhead" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="LED_" library="CASE-LED" deviceset="LED5MM" device="" package3d_urn="urn:adsk.eagle:package:7889634/1" value="5mm"/>
 <part name="LED_1" library="CASE-LED" deviceset="LED5MM" device="" package3d_urn="urn:adsk.eagle:package:7889634/1" value="5mm"/>
 <part name="LED_2" library="CASE-LED" deviceset="LED5MM" device="" package3d_urn="urn:adsk.eagle:package:7889634/1" value="5mm"/>
+<part name="LED_3" library="CASE-LED" deviceset="LED5MM" device="" package3d_urn="urn:adsk.eagle:package:7889634/1" value="5mm"/>
 <part name="GND2" library="Isaks Bibliotek" library_urn="urn:adsk.eagle:library:11889733" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -716,15 +716,15 @@ For brighter led choose
 <attribute name="NAME" x="-26.67" y="17.145" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-26.67" y="15.24" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="LED_" gate="G$1" x="7.62" y="5.08" smashed="yes">
+<instance part="LED_1" gate="G$1" x="7.62" y="5.08" smashed="yes">
 <attribute name="NAME" x="10.16" y="5.08" size="1.778" layer="95"/>
 <attribute name="VALUE" x="10.16" y="1.27" size="1.778" layer="96"/>
 </instance>
-<instance part="LED_1" gate="G$1" x="7.62" y="-7.62" smashed="yes">
+<instance part="LED_2" gate="G$1" x="7.62" y="-7.62" smashed="yes">
 <attribute name="NAME" x="10.16" y="-7.62" size="1.778" layer="95"/>
 <attribute name="VALUE" x="10.16" y="-11.43" size="1.778" layer="96"/>
 </instance>
-<instance part="LED_2" gate="G$1" x="7.62" y="-20.32" smashed="yes">
+<instance part="LED_3" gate="G$1" x="7.62" y="-20.32" smashed="yes">
 <attribute name="NAME" x="10.16" y="-20.32" size="1.778" layer="95"/>
 <attribute name="VALUE" x="10.16" y="-24.13" size="1.778" layer="96"/>
 </instance>
@@ -754,7 +754,7 @@ For brighter led choose
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="LED_2" gate="G$1" pin="K"/>
+<pinref part="LED_3" gate="G$1" pin="K"/>
 <wire x1="7.62" y1="-25.4" x2="7.62" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
@@ -763,21 +763,21 @@ For brighter led choose
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="LED_" gate="G$1" pin="A"/>
+<pinref part="LED_1" gate="G$1" pin="A"/>
 <wire x1="7.62" y1="10.16" x2="7.62" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="LED_" gate="G$1" pin="K"/>
-<pinref part="LED_1" gate="G$1" pin="A"/>
+<pinref part="LED_1" gate="G$1" pin="K"/>
+<pinref part="LED_2" gate="G$1" pin="A"/>
 <wire x1="7.62" y1="0" x2="7.62" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="LED_1" gate="G$1" pin="K"/>
-<pinref part="LED_2" gate="G$1" pin="A"/>
+<pinref part="LED_2" gate="G$1" pin="K"/>
+<pinref part="LED_3" gate="G$1" pin="A"/>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>

@@ -157,16 +157,12 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYjM5YWQ2" projecturn="a.cGVyc29uYWw6dWUyYjM5YWQ2IzIwMTkwNzE0MjAzNTUxMTMx" f3durn="urn:adsk.wipprod:dm.lineage:YmY3rGVMTb2-09pauNM-9w" pcbguid="bfe6c866-9ad1-4d63-9d08-a0840a839d6f" lastpulledtime="" lastsyncedchangeguid="6722ea67-c089-1fc4-de22-e8a2f48a37fe"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYjM5YWQ2" projecturn="a.cGVyc29uYWw6dWUyYjM5YWQ2IzIwMTkwNzE0MjAzNTUxMTMx" f3durn="urn:adsk.wipprod:dm.lineage:YmY3rGVMTb2-09pauNM-9w" pcbguid="bfe6c866-9ad1-4d63-9d08-a0840a839d6f" lastpulledtime="" lastsyncedchangeguid="eaf7709a-49ce-878d-667b-a451801b078e"/>
 <plain>
-<wire x1="80" y1="2" x2="80" y2="168" width="0" layer="20"/>
-<wire x1="80" y1="168" x2="78" y2="170" width="0" layer="20" curve="90"/>
-<wire x1="78" y1="170" x2="2" y2="170" width="0" layer="20"/>
-<wire x1="2" y1="170" x2="0" y2="168" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="168" x2="0" y2="2" width="0" layer="20"/>
-<wire x1="0" y1="2" x2="2" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="2" y1="0" x2="78" y2="0" width="0" layer="20"/>
-<wire x1="78" y1="0" x2="80" y2="2" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="0" x2="80" y2="0" width="0" layer="20"/>
+<wire x1="80" y1="0" x2="80" y2="170" width="0" layer="20"/>
+<wire x1="80" y1="170" x2="0" y2="170" width="0" layer="20"/>
+<wire x1="0" y1="170" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="0" y1="60" x2="10" y2="60" width="0.5" layer="21"/>
 <wire x1="10" y1="60" x2="20" y2="60" width="0.5" layer="21"/>
 <wire x1="20" y1="60" x2="30" y2="60" width="0.5" layer="21"/>
@@ -966,8 +962,8 @@
 <rectangle x1="31.5" y1="157.7" x2="33.3" y2="157.9" layer="21"/>
 <rectangle x1="48.1" y1="157.7" x2="58.3" y2="157.9" layer="21"/>
 <rectangle x1="65.9" y1="157.7" x2="76.5" y2="157.9" layer="21"/>
-<hole x="20" y="164.6" drill="5"/>
-<hole x="60" y="164.6" drill="5"/>
+<hole x="22.6" y="164.6" drill="5"/>
+<hole x="54.8" y="164.6" drill="5"/>
 <wire x1="10" y1="40" x2="20" y2="60" width="0.5" layer="21"/>
 <wire x1="20" y1="40" x2="10" y2="60" width="0.5" layer="21"/>
 <rectangle x1="20" y1="0" x2="30" y2="20" layer="21"/>
@@ -1275,7 +1271,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="67.945" y="110.49" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="LED_1" library="CASE-LED" package="LED5MM" package3d_urn="urn:adsk.eagle:package:7889634/1" value="5mm" x="20.98" y="149.14" smashed="yes"/>
-<element name="LED_2" library="CASE-LED" package="LED5MM" package3d_urn="urn:adsk.eagle:package:7889634/1" value="5mm" x="43.51" y="149.14" smashed="yes"/>
+<element name="LED_2" library="CASE-LED" package="LED5MM" package3d_urn="urn:adsk.eagle:package:7889634/1" value="5mm" x="42.91" y="149.14" smashed="yes"/>
 <element name="LED_3" library="CASE-LED" package="LED5MM" package3d_urn="urn:adsk.eagle:package:7889634/1" value="5mm" x="62.7" y="149.14" smashed="yes"/>
 <element name="R1" library="SparkFun-Resistors" package="AXIAL-0.3" value="330" x="8.89" y="110.49" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.976" y="111.43" size="2.54" layer="21" font="vector" ratio="20" align="bottom-center"/>
@@ -1310,18 +1306,18 @@ design rules under a new name.</description>
 <contactref element="LED_1" pad="K"/>
 <contactref element="LED_2" pad="A"/>
 <wire x1="22.25" y1="149.14" x2="22.25" y2="148.15" width="1.016" layer="1"/>
-<wire x1="22.25" y1="148.15" x2="24.6" y2="145.8" width="1.016" layer="1"/>
-<wire x1="24.6" y1="145.8" x2="38.9" y2="145.8" width="1.016" layer="1"/>
-<wire x1="38.9" y1="145.8" x2="42.24" y2="149.14" width="1.016" layer="1"/>
+<wire x1="22.25" y1="148.15" x2="24.4" y2="146" width="1.016" layer="1"/>
+<wire x1="24.4" y1="146" x2="38.5" y2="146" width="1.016" layer="1"/>
+<wire x1="38.5" y1="146" x2="41.64" y2="149.14" width="1.016" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="LED_2" pad="K"/>
 <contactref element="LED_3" pad="A"/>
 <wire x1="61.43" y1="149.03" x2="61.43" y2="149.14" width="1.016" layer="1"/>
+<wire x1="44.18" y1="149.14" x2="47.4" y2="145.92" width="1.016" layer="1"/>
+<wire x1="47.4" y1="145.92" x2="47.4" y2="145.6" width="1.016" layer="1"/>
 <wire x1="47.4" y1="145.6" x2="58" y2="145.6" width="1.016" layer="1"/>
 <wire x1="58" y1="145.6" x2="61.43" y2="149.03" width="1.016" layer="1"/>
-<wire x1="44.78" y1="149.14" x2="44.78" y2="148.22" width="1.016" layer="1"/>
-<wire x1="44.78" y1="148.22" x2="47.4" y2="145.6" width="1.016" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
